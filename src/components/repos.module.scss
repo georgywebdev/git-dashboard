@@ -1,0 +1,29 @@
+.repolist {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+}
+
+.repoitem {
+  padding: 1rem;
+  border: #ccc 1px solid;
+  margin: 0.7rem 0;
+  text-align: center;
+}
+
+.linkimg {
+  width: 30px;
+  float: right;
+}
+
+.star {
+  width: 20px;
+}
+
+.link {
+  float: left;
+}
+
+.span {
+  margin: 1rem;
+}

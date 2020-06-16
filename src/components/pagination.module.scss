@@ -1,0 +1,36 @@
+.selected {
+  background-color: red;
+  opacity: 0.5;
+  color: #333;
+  width: 10%;
+  height: 30px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font: inherit;
+}
+
+.table {
+  display: table;
+  margin: 0 auto;
+}
+.ul {
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+}
+.ul .li {
+  display: inline;
+}
+.regular {
+  background-color: #e7e7e7;
+  color: #333;
+  width: 10%;
+  height: 30px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font: inherit;
+}

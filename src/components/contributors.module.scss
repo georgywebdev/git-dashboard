@@ -1,0 +1,24 @@
+img {
+  border-radius: 50%;
+  width: 60px;
+}
+
+.container {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.ul {
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+}
+.ul .li {
+  display: inline;
+}
