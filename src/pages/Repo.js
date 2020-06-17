@@ -30,7 +30,7 @@ function Repo({ match }) {
               />
               :{data.stargazers_count}
             </div>
-            <div>
+            <div className={repoStyles.last}>
               Last updated:
               {moment(data.updated_at).fromNow()}
             </div>

@@ -19,7 +19,6 @@ body {
   max-width: 1100px;
   margin: auto;
   overflow: hidden;
-  padding: 0 2rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -59,4 +58,12 @@ input[type="submit"],
 button {
   font: inherit;
 }
-/*# sourceMappingURL=app.css.map */
+
+div {
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+}
+/*# sourceMappingURL=App.css.map */

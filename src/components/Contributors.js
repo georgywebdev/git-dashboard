@@ -21,14 +21,14 @@ function Contributors({ match }) {
           {data.map((item) => (
             <li key={item.id} className={contributorsStyles.li}>
               <div className={contributorsStyles.container}>
-                <a href={item.html_url}>
+                <a href={item.html_url} className={contributorsStyles.a}>
                   {item.login}
-                  <img
-                    src={item.avatar_url}
-                    alt="avatar"
-                    className={contributorsStyles.avatar}
-                  />
                 </a>
+                <img
+                  src={item.avatar_url}
+                  alt="avatar"
+                  className={contributorsStyles.avatar}
+                />
               </div>
             </li>
           ))}
