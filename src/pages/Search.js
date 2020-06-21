@@ -29,8 +29,7 @@ function Search({ history, match }) {
       );
     console.log("hook");
     setQuery(match.params.query);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [match.params.query, match.params.page]);
+  }, [match.params.query, match.params.page, doFetch]);
 
   //localStorage caching
   useEffect(() => {
